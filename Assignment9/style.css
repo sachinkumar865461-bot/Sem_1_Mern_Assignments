@@ -1,0 +1,163 @@
+.navbar{
+    background-color: #000040;
+}
+.header{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h2{
+    color: white;
+    padding-left: 15px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.links{
+    display: flex;
+    gap: 15px;
+    padding-right: 70px;
+}
+
+/* main */
+
+.learning{
+    background-color: #DCFADE;
+    position: relative;
+    bottom: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.items p{
+    color: rgb(4, 150, 4)
+}
+.items h2{
+    color: navy;
+    line-height: 35px;
+}
+.items h5{
+    color: rgb(79, 77, 77);
+    font-size: 15px;
+    position: relative;
+    bottom: 19px;
+}
+button{
+    background-color: #006666;
+    color: white;
+    padding: 5px 25px;
+    margin-bottom: 15px;
+}
+.item2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    height: auto;
+    gap: 10px;
+}
+.cards{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #EBFCF4;
+    height: 17vh;
+    padding-left: 9px;
+}
+.cards p{
+    color: navy;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.img1{
+    background-color: rgb(179, 233, 215);
+    height: 100px;
+}
+.img2{
+    background-color: rgb(179, 233, 215);
+    height: 100px;
+}
+.img3{
+    background-color: rgb(179, 233, 215);
+    height: 100px;
+}
+.footer{
+    background-color: #000040;
+}
+
+@media screen and (max-width: 375px) {
+
+    /* Navbar */
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 8px;
+    }
+
+    .header h2 {
+        font-size: 16px;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* Hero Section */
+    .learning {
+        width: 100%;
+    }
+
+    .items {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    /* Main Section */
+    .main2 {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    /* Feature Cards */
+    .item2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .cards {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Gallery */
+    .photos {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .img1, .img2, .img3 {
+        width: 100%;
+        height: 110px;
+    }
+
+    /* Footer */
+    .footer .header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer h2 {
+        font-size: 14px;
+    }
+
+}
