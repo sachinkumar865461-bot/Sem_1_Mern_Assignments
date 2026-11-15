@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;                      
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        fieldset {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        div{
+            text-align: left;
+            border-radius: 10px;
+        }
+        .container {
+            max-width:fit-content;
+            margin: 0 auto;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        button{
+            color: rgba(0, 128, 0, 0.393);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+   <h1 style="text-align: center; text-decoration: underline;">Application Form</h1>
+    <p>Student Intrainship Application. *Required</p>
+   <fieldset>
+    <p style="color: rgb(142, 225, 18);">Personal Information/ fieldset + legend</p>
+        <legend style="font-size: 20px;">Please fill the all information about yourself</legend>
+        Name:
+        <input type="text" name="name" size="15" maxlenght="30"placeholder="enter your name"><br><br>
+        Email:
+        <input type="email" name="email Id" size="15" maxlenght="30"placeholder="enter your email id"><br><br>
+        password:
+        <input type="password" name="password" size="15" maxlenght="30" placeholder="enter your password"><br><br>
+        Contact Number:
+        <input type="number" name="phone number" size="15" maxlenght="30"placeholder="enter your contact number"><br><br>
+        portfolio URL:
+        <input type="url" name="project" size="15" maxlenth="30" placeholder="enter your portfolio URL"><br><br>
+         Age*:
+         <input type="age" name="age" size="15" maxlength="30" placeholder="18"><br><br>
+          Gender:
+           <input type="radio" name="gender" value="Male">Male
+           <input type="radio" name="gender" value="Female">Female
+           <input type="radio" name="gender" value="Other">Other
+          <p style="color: rgb(142, 225, 18);">Education Information/ fieldset + legend</p>
+          select your Skills
+         <input type ="checkbox" placeholder="html"name="html=" id="html">Html
+         <input type ="checkbox" placeholder="css"name="css=" id="css">Css
+         <input type ="checkbox" placeholder="javascript"name="javascript" id="javascript">JavaScript
+            <p style="color: rgb(142, 225, 18);">Upload & extras/ fieldset + legend</p>
+            Abalable from
+            <input type="date" name="date" size="15" maxlength="30">
+            Interview time:
+            <input type="time" name="time" size="15" maxlength="30" placeholder="10:30">
+            Resume*:
+            <input type="file" name="file" size="15" maxlenth="30" placeholder="Uplode Resume">
+            expected Salary:
+            <input type="number" name="salary" size="15" maxlength="30" placeholder="enter your expected salary">
+            Why would be like to join our team:
+            <br>
+         <textarea name="message" placeholder="Write a message" size="15" rows="3" cols="30" maxlength="30"></textarea>
+         <br>
+         <div>
+            <button type="submit">Submit Application</button>
+            <button type="reset">Reset</button>
+         </div>
+        </fieldset>
+        <span> <a href="home.html" style="color: ( blueviolet); font-size: 30px;">go to home page:</a> </span>
+        </div>
+</body>
+</body>
+</html>
